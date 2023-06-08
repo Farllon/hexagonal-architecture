@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+	
+  <ItemGroup>
+    <ProjectReference Include="..\..\Common\Tasking.Common.AspNetCore\Tasking.Common.AspNetCore.csproj" />
+    <ProjectReference Include="..\Tasking.Tasks.InMemoryDb\Tasking.Tasks.InMemoryDb.csproj" />
+    <ProjectReference Include="..\Tasking.Tasks.Rest\Tasking.Tasks.Rest.csproj" />
+  </ItemGroup>
+
+</Project>
